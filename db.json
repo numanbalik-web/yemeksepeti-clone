@@ -1,0 +1,505 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Lezzetin Tadı",
+      "minPrice": 90,
+      "estimatedDelivery": 45,
+      "photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400",
+      "rating": 4.7,
+      "isDeliveryFree": true,
+      "isOpen": false,
+      "distance": 5
+    },
+    {
+      "id": "2",
+      "name": "Aromalı Ev",
+      "minPrice": 40,
+      "estimatedDelivery": 35,
+      "photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400",
+      "rating": 4.5,
+      "isDeliveryFree": false,
+      "isOpen": true,
+      "distance": 7
+    },
+    {
+      "id": "3",
+      "name": "Lezzet Köşesi",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=400",
+      "rating": 4.8,
+      "isDeliveryFree": true,
+      "isOpen": true,
+      "distance": 2
+    },
+    {
+      "id": "4",
+      "name": "Keyifli Mekan",
+      "minPrice": 45,
+      "estimatedDelivery": 40,
+      "photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400",
+      "rating": 4.6,
+      "isDeliveryFree": true,
+      "isOpen": true,
+      "distance": 9
+    },
+    {
+      "id": "5",
+      "name": "Tadı Damağınızda",
+      "minPrice": 55,
+      "estimatedDelivery": 55,
+      "photo": "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=400",
+      "rating": 4.9,
+      "isDeliveryFree": false,
+      "isOpen": false,
+      "distance": 11
+    },
+    {
+      "id": "6",
+      "name": "Lezzet Pınarı",
+      "minPrice": 55,
+      "estimatedDelivery": 40,
+      "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400",
+      "rating": 4.4,
+      "isDeliveryFree": false,
+      "isOpen": false,
+      "distance": 1
+    },
+    {
+      "id": "7",
+      "name": "Sağlıklı İstasyon",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=400",
+      "rating": 4.6,
+      "isDeliveryFree": true,
+      "isOpen": true,
+      "distance": 2
+    },
+    {
+      "id": "8",
+      "name": "Baharatlı Lezzetler",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400",
+      "rating": 4.7,
+      "isDeliveryFree": true,
+      "isOpen": true,
+      "distance": 11
+    },
+    {
+      "id": "9",
+      "name": "Gurme Mutfak",
+      "minPrice": 120,
+      "estimatedDelivery": 35,
+      "photo": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400",
+      "rating": 4.8,
+      "isOpen": true,
+      "isDeliveryFree": false,
+      "distance": 3
+    },
+    {
+      "id": "10",
+      "name": "Anadolu Sofrası",
+      "minPrice": 80,
+      "estimatedDelivery": 50,
+      "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400",
+      "rating": 4.6,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 7
+    },
+    {
+      "id": "11",
+      "name": "Ege Lezzetleri",
+      "minPrice": 70,
+      "estimatedDelivery": 40,
+      "photo": "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=400",
+      "rating": 4.9,
+      "isOpen": false,
+      "isDeliveryFree": false,
+      "distance": 4
+    },
+    {
+      "id": "12",
+      "name": "Damak Şöleni",
+      "minPrice": 110,
+      "estimatedDelivery": 30,
+      "photo": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400",
+      "rating": 4.5,
+      "isOpen": true,
+      "isDeliveryFree": true,
+      "distance": 2
+    },
+    {
+      "id": "13",
+      "name": "Lezzet Durağı",
+      "minPrice": 95,
+      "estimatedDelivery": 55,
+      "photo": "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=400",
+      "rating": 4.3,
+      "isOpen": false,
+      "isDeliveryFree": false,
+      "distance": 6
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "desc": "Taze somon balığı ızgara edilmiş, yanında sebzelerle servis edilir.",
+      "category": "Deniz Ürünleri",
+      "price": 45.99,
+      "rating": 4.8,
+      "photo": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400",
+      "restaurantId": "1",
+      "isPopular": true
+    },
+    {
+      "id": "2",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+      "restaurantId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400",
+      "restaurantId": "1",
+      "isPopular": true
+    },
+    {
+      "id": "4",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://images.unsplash.com/photo-1598103442097-8b74394b95c0?w=400",
+      "restaurantId": "3"
+    },
+    {
+      "id": "5",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+      "restaurantId": "4",
+      "isPopular": true
+    },
+    {
+      "id": "6",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+      "restaurantId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400",
+      "restaurantId": "7",
+      "isPopular": true
+    },
+    {
+      "id": "8",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=400",
+      "restaurantId": "8",
+      "isPopular": true
+    },
+    {
+      "id": "9",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+      "restaurantId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=400",
+      "restaurantId": "5"
+    },
+    {
+      "id": "11",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400",
+      "restaurantId": "4",
+      "isPopular": true
+    },
+    {
+      "id": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "desc": "Çıtır çıtır kızarmış tavuk kanatları, yanında sos ile servis edilir.",
+      "category": "Atıştırmalıklar",
+      "price": 9.99,
+      "rating": 4.4,
+      "photo": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+      "restaurantId": "2"
+    },
+    {
+      "id": "42",
+      "title": "Adana Kebap",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400",
+      "restaurantId": "1",
+      "isPopular": true
+    },
+    {
+      "id": "53",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400",
+      "restaurantId": "3"
+    },
+    {
+      "id": "24",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+      "restaurantId": "4",
+      "isPopular": true
+    },
+    {
+      "id": "35",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "restaurantId": "5"
+    },
+    {
+      "id": "76",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400",
+      "restaurantId": "6",
+      "isPopular": true
+    },
+    {
+      "id": "57",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400",
+      "restaurantId": "7"
+    },
+    {
+      "id": "38",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400",
+      "restaurantId": "8",
+      "isPopular": true
+    },
+    {
+      "id": "29",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400",
+      "restaurantId": "5",
+      "isPopular": true
+    },
+    {
+      "id": "310",
+      "title": "Izgara Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=400",
+      "restaurantId": "4",
+      "isPopular": true
+    },
+    {
+      "id": "111",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=400",
+      "restaurantId": "2"
+    },
+    {
+      "id": "310",
+      "title": "Tavuk Şiş",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400",
+      "restaurantId": "1",
+      "isPopular": true
+    },
+    {
+      "id": "311",
+      "title": "Izgara Somon",
+      "desc": "Taze somon fileto, ızgarada pişirilip, limon dilimleriyle servis edilir.",
+      "category": "Deniz Ürünleri",
+      "price": 21.99,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400",
+      "restaurantId": "7",
+      "isPopular": true
+    },
+    {
+      "id": "312",
+      "title": "Margherita Pizza",
+      "desc": "Domates sosu, mozzarella peyniri ve taze fesleğen ile hazırlanan klasik pizza.",
+      "category": "İtalyan Mutfağı",
+      "price": 12.5,
+      "rating": 4.5,
+      "photo": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "restaurantId": "3",
+      "isPopular": false
+    },
+    {
+      "id": "313",
+      "title": "Falafel Tabağı",
+      "desc": "Humus, taze sebzeler ve pita ekmeği ile servis edilen çıtır falafel topları.",
+      "category": "Vejetaryen",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=400",
+      "restaurantId": "9",
+      "isPopular": false
+    },
+    {
+      "id": "314",
+      "title": "Kuzu Tandır",
+      "desc": "Yavaş pişirilmiş, yumuşacık kuzu tandır, yanında bulgur pilavı ile.",
+      "category": "Türk Mutfağı",
+      "price": 24.99,
+      "rating": 4.9,
+      "photo": "https://images.unsplash.com/photo-1572441713132-c542fc4fe282?w=400",
+      "restaurantId": "2",
+      "isPopular": true
+    },
+    {
+      "id": "315",
+      "title": "Pad Thai",
+      "desc": "Karides, pirinç eriştesi ve yer fıstığı ile hazırlanan Tayland usulü Pad Thai.",
+      "category": "Asya Mutfağı",
+      "price": 14.99,
+      "rating": 4.4,
+      "photo": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400",
+      "restaurantId": "6",
+      "isPopular": false
+    }
+  ],
+  "cart": [
+    {
+      "id": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://i.lezzet.com.tr/images-xxlarge-recipe/tavuk-kebabi-971f9aac-58c0-4432-9ecd-46b549f0edb0.jpg",
+      "restaurantId": "1",
+      "amount": 3
+    },
+    {
+      "id": "42",
+      "title": "Adana Kebap",
+      "price": 12.99,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbGjQUtzEDL82iId1PUW8Eq9B4dWKsNfjwQ&s",
+      "restaurantId": "1",
+      "amount": 1
+    },
+    {
+      "id": "310",
+      "title": "Köri Tavuk",
+      "price": 16.99,
+      "photo": "https://i.nefisyemektarifleri.com/2023/03/13/cok-lezzetli-korili-kremali-tavuk-tarifi-baska-tarif-aramayin-videolu-6.jpg",
+      "restaurantId": "1",
+      "amount": 1
+    },
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+      "restaurantId": "1",
+      "amount": 1
+    },
+    {
+      "id": "8",
+      "title": "Sebzeli Noodle",
+      "price": 11.99,
+      "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "restaurantId": "8",
+      "amount": 1
+    },
+    {
+      "id": "38",
+      "title": "Sebzeli Noodle",
+      "price": 11.99,
+      "photo": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400",
+      "restaurantId": "8",
+      "amount": 1
+    },
+    {
+      "id": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+      "restaurantId": "2",
+      "amount": 2
+    }
+  ]
+}
