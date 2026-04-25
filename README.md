@@ -48,7 +48,7 @@ A full-stack food delivery web application built with React, Redux, and JSON Ser
 
 
 # Clone the repository
-git clone https://github.com/numanbalik-web/yemeksepeti-pro.git
+git clone https://github.com/numanbalik-web
 
 # Install dependencies
 npm install
