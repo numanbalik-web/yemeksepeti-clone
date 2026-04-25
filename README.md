@@ -44,25 +44,22 @@ A full-stack food delivery web application built with React, Redux, and JSON Ser
 ![JSON Server](https://img.shields.io/badge/JSON_Server-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
+## ⚙️ Installation
 
 
+# Clone the repository
+git clone https://github.com/numanbalik72/yemeksepeti-pro.git
 
-src/
-├── components/
-│   ├── error/
-│   ├── footer/
-│   ├── header/
-│   └── loader/
-├── pages/
-│   ├── cart/
-│   ├── home/
-│   └── restaurant/
-├── redux/
-│   ├── actions/
-│   ├── reducers/
-│   └── store.js
-└── utils/
-    └── api.js
+# Install dependencies
+npm install
+
+# Start JSON Server (port 3000)
+npm run server
+
+# Start development server (port 5173)
+npm run dev
+
+
 
 ## 📬 Contact
 
