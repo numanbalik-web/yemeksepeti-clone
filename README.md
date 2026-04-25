@@ -77,19 +77,10 @@ src/
 └── utils/
     └── api.js
 
-📬 Contact
-<p>
-  <a href="mailto:numanbalik72@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="http://linkedin.com/in/numan-balik-sverige">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+## 📬 Contact
 
-
-<p align="center">Made with ❤️ by <a href="http://linkedin.com/in/numan-balik-sverige">Numan Balık</a></p>
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:numanbalik72@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/numan-balik-sverige)
 
 🙏 Teşekkür
-Bu projeyi geliştirirken yolculuğuma eşlik eden ve sorularımı sabırla yanıtlayan herkese teşekkür ederim. 
+Bu projeyi geliştirirken yolculuğuma eşlik eden ve sorularımı sabırla yanıtlayan https://github.com/isveckrali , https://github.com/furkanevin ve https://github.com/Udemig teşekkür ederim. 
